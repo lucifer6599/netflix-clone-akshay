@@ -67,7 +67,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
       </div>
       {/*container-->posters above ^^*/}
       {/*Youtube trailers  */}
-        <Youtube videoId={trailerUrl} opts={opts}/>
+        {trailerUrl?<Youtube videoId={trailerUrl} opts={opts}/>:<div/>}
 
     </div>
   );

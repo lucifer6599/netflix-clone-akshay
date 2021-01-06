@@ -4,7 +4,13 @@
 
 }
 
-
+.row__videoshow{
+    height:"400";
+    width:"100%";
+}
+.row__videohide{
+    display:none;
+}
 .row__posters{
     display:flex;
     overflow-y: hidden;
