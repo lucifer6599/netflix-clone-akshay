@@ -3,13 +3,14 @@ import './App.css';
 import Row from './Row'
 import requests from './requests';
 import Banner from './Banner'
+import Nav from "./Nav";
 //Akshay Sinha 6-1-2021
 function App() {
   return (
-    <div className="App">
+    <div className="app">
     {/* Navbar */}
-
-    {/* Banner */}
+    <Nav/>
+          {/* Banner */}
     <Banner/>
     {/* {by default any variable in a javascript if not assigned is of boolean type
     and can be used directly for ex:- "isLargeRow" below
